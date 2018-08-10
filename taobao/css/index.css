@@ -1,0 +1,21 @@
+body {
+  background-image: url(../img/bg.jpg);
+}
+
+.con {
+  margin: 50px auto;
+  width: 130px;
+  perspective: 400px;
+}
+
+#box {
+  transform-style: preserve-3d;
+  height: 100%;
+  perspective-origin: 50% 50%;
+}
+
+#box div {
+  position: absolute;
+  width: 130px;
+  height: 1020px;
+}
