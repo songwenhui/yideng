@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Document</title>
+  <style>
+    .umbrella {
+      position: relative;
+      width: 300px;
+      height: 150px;
+      border: 2px solid #333;
+      background: radial-gradient(blue 50%, #333 50%, #333 51%, transparent 51%) 50% -65px / 50% 300%, 
+      radial-gradient(yellow 50%, #333 50%, #333 51%,  transparent 51%) 50% -65px / 100% 300%, 
+      radial-gradient(red 50%, red) 50% 0 / 100% 100%;
+      background-repeat: no-repeat;
+      background-color: #999;
+      margin: 80px auto;
+      border-radius: 150px 150px 0 0;
+    }
+    .umbrella::before {
+      content: '';
+      box-sizing: border-box;
+      position: absolute;
+      top: -20px;
+      left: 50%;
+      transform: translateX(-50%);
+      width: 20px;
+      height: 20px;
+      border-radius: 10px;
+      border: 2px solid #333;
+    }
+    .umbrella::after {
+      content: '';
+      position: absolute;
+      top: 0;
+      left: 50%;
+      transform: translateX(-50%);
+      width: 2px;
+      height: 350px;
+      background-color: #333;
+    }
+    .umbrella i {
+      box-sizing: border-box;
+      position: absolute;
+      bottom: -260px;
+      left: 50%;
+      transform: translateX(-50%);
+      width: 10px;
+      height: 60px;
+      border: 2px solid #333;
+      border-radius: 80% / 100%;
+      background-color: red;
+    }
+  </style>
+</head>
+<body>
+  <div class="umbrella">
+    <i></i>
+  </div>
+</body>
+</html>
