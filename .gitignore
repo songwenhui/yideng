@@ -1,3 +1,4 @@
 /test/
+/es5notes/
 **/node_modules/
 **/package-lock.json
