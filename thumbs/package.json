@@ -1,0 +1,26 @@
+{
+  "name": "thumbs",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "babel-cli": "^6.26.0",
+    "systemjs": "^0.21.4"
+  },
+  "devDependencies": {
+    "babel-preset-latest": "^6.24.1",
+    "jasmine-core": "^3.2.1",
+    "karma": "^3.0.0",
+    "karma-chrome-launcher": "^2.2.0",
+    "karma-jasmine": "^1.1.2",
+    "karma-phantomjs-launcher": "^1.0.4",
+    "karma-requirejs": "^1.1.0",
+    "phantomjs": "^2.1.7",
+    "requirejs": "^2.3.6"
+  }
+}
